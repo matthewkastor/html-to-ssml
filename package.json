@@ -1,0 +1,44 @@
+{
+  "name": "html-to-ssml",
+  "version": "1.0.7",
+  "main": "./src/html-to-ssml.js",
+  "bin": {
+    "html-to-ssml": "./bin/cli.js"
+  },
+  "description": "A utility for converting HTML to SSML.",
+  "keywords": [
+    "HTML",
+    "SSML",
+    "TTS",
+    "atropa",
+    "html-to-ssml"
+  ],
+  "author": {
+    "name": "Matthew Kastor",
+    "email": "matthewkastor@gmail.com",
+    "url": "https://github.com/matthewkastor"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "engines": {
+    "node": ">=0.8.14"
+  },
+  "dependencies": {
+    "jsdom": "=0.6.5",
+    "htmltidy": ">=0.0.6",
+    "htmltidy-options": "*"
+  },
+  "homepage": "https://github.com/matthewkastor/html-to-ssml/",
+  "bugs": "https://github.com/matthewkastor/html-to-ssml/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewkastor/html-to-ssml.git"
+  },
+  "licenses": [
+    {
+      "type": "gpl-3.0",
+      "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
+    }
+  ]
+}
