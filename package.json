@@ -1,6 +1,6 @@
 {
   "name": "html-to-ssml",
-  "version": "1.0.7",
+  "version": "2022.11.16",
   "main": "./src/html-to-ssml.js",
   "bin": {
     "html-to-ssml": "./bin/cli.js"
